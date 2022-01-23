@@ -930,7 +930,7 @@ async def booted(client):
     chats = get_val("ALD_USR")
     for i in chats:
         try:
-            await client.send_message(i, "The bot is booted and is ready to use.")
+            await client.send_message(i, "[𝚃𝙴𝙼 𝙻𝙴𝙴𝙲𝙷 •𝚃𝚃𝙺• 𝙱𝙾𝚃 3 Has Started Sucessfully. @TEM_LEECH.")
         except Exception:
             torlog.info(f"Not found the entity {i}")
 
